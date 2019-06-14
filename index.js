@@ -18,9 +18,8 @@ app.get('/api/pepitoPerez',(req,res)=>{
     res.send({test:"informacion de pepito"})
 })
 
-app.get('/api/todosLosArticulos/papitas',(req,res)=>{
-    res.send({
-  "peliculas": 
+app.get('/api/todosLosArticulos/articulos',(req,res)=>{
+    res.send("peliculas": [
     {
       "id": 1,
       "nombre": "El sexto sentido",
@@ -62,8 +61,8 @@ app.get('/api/todosLosArticulos/papitas',(req,res)=>{
       "nombre": "Las Hurdes",
       "director": "Luis Buñuel",
       "clasificacion": "Documental"
-    } 
-})
+    }
+  ])
 })
 
 server=http.createServer(app);
