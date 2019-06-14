@@ -18,9 +18,8 @@ app.get('/api/pepitoPeres',(req,res)=>{
     res.send({test:"info pepito"})
 })
 
-//desde aqui Nelly
 app.get('api/articulos',(req,res)=>{
-    res.send({dos:"prueba"})
+    res.send("prueba de nelly")
 })
 
 server=http.createServer(app);
