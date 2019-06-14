@@ -20,7 +20,7 @@ app.get('/api/pepitoPerez',(req,res)=>{
 
 app.get('/api/todosLosArticulos/papitas',(req,res)=>{
     res.send({
-  "peliculas": [
+  "peliculas": 
     {
       "id": 1,
       "nombre": "El sexto sentido",
@@ -62,8 +62,7 @@ app.get('/api/todosLosArticulos/papitas',(req,res)=>{
       "nombre": "Las Hurdes",
       "director": "Luis Buñuel",
       "clasificacion": "Documental"
-    }
-  ]
+    } 
 })
 })
 
