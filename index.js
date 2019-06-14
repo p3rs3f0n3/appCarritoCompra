@@ -20,7 +20,7 @@ app.get('/api/pepitoPeres',(req,res)=>{
 
 //desde aqui Nelly
 app.get('api/articulos',(req,res)=>{
-    res.send({articulos:"prueba"})
+    res.send({dos:"prueba"})
 })
 
 server=http.createServer(app);
