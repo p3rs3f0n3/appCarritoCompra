@@ -14,54 +14,136 @@ app.get('/api',(req,res)=>{
     res.send("información api")
 })
 
-/*app.get('/api/pepitoPerez',(req,res)=>{
-    res.send({test:"informacion de pepito"})
-})*/
-
-app.get('/api/articulos',(req,res)=>{
+app.get('/api/ListaArticulos',(req,res)=>{
     res.send({
-  "peliculas": [
+  "articulo": [
     {
       "id": 1,
-      "nombre": "El sexto sentido",
-      "director": "M. Night Shyamalan",
-      "clasificacion": "Drama"
+      "nombre": "Papa Rellena",
+      "Inventario": "100",
+	  "Precio":"2000",
+      "categoria": "Papas"
     },
-    {
+	{
       "id": 2,
-      "nombre": "Pulp Fiction",
-      "director": "Tarantino",
-      "clasificacion": "Acción"
+      "nombre": "Papa Aborrajada",
+      "Inventario": "100",
+	  "Precio":"700",
+      "categoria": "Papas"
     },
-    {
+	{
       "id": 3,
-      "nombre": "Todo Sobre Mi Madre",
-      "director": "Almodobar",
-      "clasificacion": "Drama"
+      "nombre": "Papa Frita Amarilla",
+      "Inventario": "100",
+	  "Precio":"1000",
+      "categoria": "Papas"
     },
-    {
+	{
       "id": 4,
-      "nombre": "300",
-      "director": "Zack Snyder",
-      "clasificacion": "Acción"
+      "nombre": "Papa Frita Francesa",
+      "Inventario": "100",
+	  "Precio":"1000",
+      "categoria": "Papas"
     },
-    {
+	{
       "id": 5,
-      "nombre": "El silencio de los corderos",
-      "director": "Jonathan Demme",
-      "clasificacion": "Drama"
+      "nombre": "Papa Chorriada",
+      "Inventario": "100",
+	  "Precio":"1500",
+      "categoria": "Papas"
     },
-    {
+	{
       "id": 6,
-      "nombre": "Forrest Gump",
-      "director": "Robert Zemeckis",
-      "clasificacion": "Comedia"
+      "nombre": "Empanada Res",
+      "Inventario": "100",
+	  "Precio":"1200",
+      "categoria": "Empanadas"
+    },
+	{
+      "id": 7,
+      "nombre": "Empanada Pollo",
+      "Inventario": "100",
+	  "Precio":"1200",
+      "categoria": "Empanadas"
+    },
+	{
+      "id": 8,
+      "nombre": "Empanada Camarón",
+      "Inventario": "100",
+	  "Precio":"1200",
+      "categoria": "Empanadas"
+    },
+	{
+      "id": 9,
+      "nombre": "Empanada Arroz",
+      "Inventario": "100",
+	  "Precio":"1200",
+      "categoria": "Empanadas"
+    },
+	{
+      "id": 10,
+      "nombre": "Marranitas",
+      "Inventario": "100",
+	  "Precio":"2000",
+      "categoria": "Otros"
+    },
+	{
+      "id": 11,
+      "nombre": "Aborrajados",
+      "Inventario": "100",
+	  "Precio":"1700",
+      "categoria": "Otros"
+    },
+	{
+      "id": 12,
+      "nombre": "Chorizo Res",
+      "Inventario": "100",
+	  "Precio":"2000",
+      "categoria": "Chorizos"
+    },
+	{
+      "id": 13,
+      "nombre": "Chorizo Pollo",
+      "Inventario": "100",
+	  "Precio":"2000",
+      "categoria": "Chorizos"
+    },
+	{
+      "id": 14,
+      "nombre": "Chorizo Mixto",
+      "Inventario": "100",
+	  "Precio":"2000",
+      "categoria": "Chorizos"
+    },
+	{
+      "id": 15,
+      "nombre": "Pastel de Yuca",
+      "Inventario": "100",
+	  "Precio":"2000",
+      "categoria": "Otros"
+    }
+  ]
+})
+})
+
+app.get('/api/categorias',(req,res)=>{
+    res.send({
+  "clasificaciones": [
+    {
+      "nombre": "Papas",
+      "id": 1
     },
     {
-      "id": 7,
-      "nombre": "Las Hurdes",
-      "director": "Luis Buñuel",
-      "clasificacion": "Documental"
+      "nombre": "Empanadas",
+      "id": 2
+    },
+    {
+      "nombre": "Otros",
+      "id": 3
+    },
+    {
+      "nombre": "chorizos",
+      "id": 4
     }
   ]
 })
