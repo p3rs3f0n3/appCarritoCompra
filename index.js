@@ -63,7 +63,8 @@ app.get('/api/todosLosArticulos/papitas',(req,res)=>{
       "director": "Luis Buñuel",
       "clasificacion": "Documental"
     }
-  ]})
+  ]
+})
 })
 
 server=http.createServer(app);
