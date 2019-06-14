@@ -11,11 +11,11 @@ app.use(express.static('client'))
 app.use(bodyParser.json())
 
 app.get('/api',(req,res)=>{
-    res.send("info api")
+    res.send("información api")
 })
 
 app.get('/api/pepitoPeres',(req,res)=>{
-    res.send({test:"1231"})
+    res.send({test:"info pepito"})
 })
 
 //desde aqui Nelly
