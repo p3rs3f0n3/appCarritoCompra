@@ -14,9 +14,13 @@ app.get('/api',(req,res)=>{
     res.send("info api")
 })
 
+app.get('/api/pepitoPeres',(req,res)=>{
+    res.send({test:"1231"})
+})
+
 //desde aqui Nelly
 app.get('api/articulos',(req,res)=>{
-    res.send({articulo1:"prueba"})
+    res.send({articulos:"prueba"})
 })
 
 server=http.createServer(app);
