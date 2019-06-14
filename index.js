@@ -18,7 +18,7 @@ app.get('/api/pepitoPerez',(req,res)=>{
     res.send({test:"informacion de pepito"})
 })
 
-app.get('/api/articulos',(req,res)=>{
+app.get('/api/articulo',(req,res)=>{
     res.send("prueba de nelly")
 })
 
