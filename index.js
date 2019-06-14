@@ -18,7 +18,7 @@ app.get('/api/pepitoPerez',(req,res)=>{
     res.send({test:"informacion de pepito"})
 })
 
-app.get('/api/todosLosArticulos',(req,res)=>{
+app.get('/api/todosLosArticulos/papitas',(req,res)=>{
     res.send({
   "peliculas": [
     {
@@ -63,26 +63,7 @@ app.get('/api/todosLosArticulos',(req,res)=>{
       "director": "Luis Buñuel",
       "clasificacion": "Documental"
     }
-  ],
-  "clasificaciones": [
-    {
-      "nombre": "Drama",
-      "id": 1
-    },
-    {
-      "nombre": "Comedia",
-      "id": 2
-    },
-    {
-      "nombre": "Documental",
-      "id": 3
-    },
-    {
-      "nombre": "Acción",
-      "id": 4
-    }
-  ]
-})
+  ]})
 })
 
 server=http.createServer(app);
