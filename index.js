@@ -14,12 +14,13 @@ app.get('/api',(req,res)=>{
     res.send("información api")
 })
 
-app.get('/api/pepitoPerez',(req,res)=>{
+/*app.get('/api/pepitoPerez',(req,res)=>{
     res.send({test:"informacion de pepito"})
-})
+})*/
 
-app.get('/api/todosLosArticulos/articulos',(req,res)=>{
-    res.send("peliculas": [
+app.get('/api/articulos',(req,res)=>{
+    res.send({
+  "peliculas": [
     {
       "id": 1,
       "nombre": "El sexto sentido",
@@ -62,7 +63,8 @@ app.get('/api/todosLosArticulos/articulos',(req,res)=>{
       "director": "Luis Buñuel",
       "clasificacion": "Documental"
     }
-  ])
+  ]
+})
 })
 
 server=http.createServer(app);
