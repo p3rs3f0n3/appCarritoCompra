@@ -15,8 +15,7 @@ app.get('/api',(req,res)=>{
 })
 
 app.get('/api/ListaArticulos',(req,res)=>{
-    res.send({
-  [
+    res.send([
     {
       "id": 1,
       "nombre": "Papa Rellena",
@@ -122,8 +121,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
 	  "Precio":"2000",
       "categoria": "Otros"
     }
-  ]
-})
+  ])
 })
 
 server=http.createServer(app);
