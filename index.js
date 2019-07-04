@@ -16,7 +16,7 @@ app.get('/api',(req,res)=>{
 
 app.get('/api/ListaArticulos',(req,res)=>{
     res.send({
-  "articulo": [
+  [
     {
       "id": 1,
       "nombre": "Papa Rellena",
@@ -121,29 +121,6 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "Inventario": "100",
 	  "Precio":"2000",
       "categoria": "Otros"
-    }
-  ]
-})
-})
-
-app.get('/api/categorias',(req,res)=>{
-    res.send({
-  "clasificaciones": [
-    {
-      "nombre": "Papas",
-      "id": 1
-    },
-    {
-      "nombre": "Empanadas",
-      "id": 2
-    },
-    {
-      "nombre": "Otros",
-      "id": 3
-    },
-    {
-      "nombre": "chorizos",
-      "id": 4
     }
   ]
 })
