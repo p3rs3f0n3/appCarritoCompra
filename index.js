@@ -21,6 +21,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Papa Rellena",
       "Inventario": "100",
 	  "Precio":"2000",
+	  "imagen":"",
       "categoria": "Papas"
     },
 	{
@@ -28,6 +29,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Papa Aborrajada",
       "Inventario": "100",
 	  "Precio":"700",
+	  "imagen":"",
       "categoria": "Papas"
     },
 	{
@@ -35,6 +37,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Papa Frita Amarilla",
       "Inventario": "100",
 	  "Precio":"1000",
+	  "imagen":"",
       "categoria": "Papas"
     },
 	{
@@ -42,6 +45,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Papa Frita Francesa",
       "Inventario": "100",
 	  "Precio":"1000",
+	  "imagen":"",
       "categoria": "Papas"
     },
 	{
@@ -49,6 +53,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Papa Chorriada",
       "Inventario": "100",
 	  "Precio":"1500",
+	  "imagen":"",
       "categoria": "Papas"
     },
 	{
@@ -56,6 +61,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Empanada Res",
       "Inventario": "100",
 	  "Precio":"1200",
+	  "imagen":"",
       "categoria": "Empanadas"
     },
 	{
@@ -63,6 +69,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Empanada Pollo",
       "Inventario": "100",
 	  "Precio":"1200",
+	  "imagen":"",
       "categoria": "Empanadas"
     },
 	{
@@ -70,6 +77,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Empanada Camarón",
       "Inventario": "100",
 	  "Precio":"1200",
+	  "imagen":"",
       "categoria": "Empanadas"
     },
 	{
@@ -77,6 +85,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Empanada Arroz",
       "Inventario": "100",
 	  "Precio":"1200",
+	  "imagen":"",
       "categoria": "Empanadas"
     },
 	{
@@ -84,6 +93,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Marranitas",
       "Inventario": "100",
 	  "Precio":"2000",
+	  "imagen":"",
       "categoria": "Otros"
     },
 	{
@@ -91,6 +101,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Aborrajados",
       "Inventario": "100",
 	  "Precio":"1700",
+	  "imagen":"",
       "categoria": "Otros"
     },
 	{
@@ -98,6 +109,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Chorizo Res",
       "Inventario": "100",
 	  "Precio":"2000",
+	  "imagen":"",
       "categoria": "Chorizos"
     },
 	{
@@ -105,6 +117,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Chorizo Pollo",
       "Inventario": "100",
 	  "Precio":"2000",
+	  "imagen":"",
       "categoria": "Chorizos"
     },
 	{
@@ -112,6 +125,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Chorizo Mixto",
       "Inventario": "100",
 	  "Precio":"2000",
+	  "imagen":"",
       "categoria": "Chorizos"
     },
 	{
@@ -119,6 +133,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Pastel de Yuca",
       "Inventario": "100",
 	  "Precio":"2000",
+	  "imagen":"",
       "categoria": "Otros"
     }
   ])
