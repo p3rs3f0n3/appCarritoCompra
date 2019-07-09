@@ -21,7 +21,7 @@ app.get('/api/ListaArticulos',(req,res)=>{
       "nombre": "Papa Rellena",
       "Inventario": "100",
 	  "Precio":"2000",
-	  "imagen":"",
+	  "imagen":"https://firebasestorage.googleapis.com/v0/b/appcarritocompras.appspot.com/o/paparellena.jpg?alt=media&token=652a7225-6bf3-4e6b-9dca-27314466e2c2",
       "categoria": "Papas"
     },
 	{
